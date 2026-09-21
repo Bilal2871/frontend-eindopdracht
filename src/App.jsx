@@ -16,14 +16,14 @@ function App() {
     <>
       <Navigation/>
         <Routes>
-            <Route path = "/"             element = {<Overview/>} />
-            <Route path = "/overview"     element = {<Overview/>} />
-            <Route path = "/pokemonDetail" element = {<PokemonDetail/>} />
-            <Route path = "/register"      element = {<Register/>}  />
-            <Route path = "/login"        element = {<Login/>}  />
-            <Route path = "/favorites"    element = {<Favorites/>} />
-            <Route path = "/account"      element = {<AccountOverview/>} />
-            <Route path = "*"             element = {<NotFound/>} />
+            <Route path = "/"              element = {<Overview/>}        />
+            <Route path = "/overview"      element = {<Overview/>}        />
+            <Route path = "/pokemonDetail" element = {<PokemonDetail/>}   />
+            <Route path = "/register"      element = {<Register/>}        />
+            <Route path = "/login"         element = {<Login/>}           />
+            <Route path = "/favorites"     element = {<Favorites/>}       />
+            <Route path = "/account"       element = {<AccountOverview/>} />
+            <Route path = "*"              element = {<NotFound/>}        />
         </Routes>
       <FooterBar/>
     </>
